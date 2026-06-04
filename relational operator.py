@@ -1,0 +1,13 @@
+x=76
+y=80
+z=45
+print(x>y)
+print(x<y)
+print(x>=z)
+print(x<=z)
+print(x==y)
+print(x!=y)
+s="sneha"
+c="chandhrika"
+print(s==c)
+print(s!=c)
