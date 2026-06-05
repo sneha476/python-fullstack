@@ -26,3 +26,5 @@ print(sys.getsizeof(c)) #32
 
 bool_g=False
 print(sys.getsizeof(bool_g)) #28
+t=[10,20,30,40]
+i=0
