@@ -1,3 +1,4 @@
+
 # Print numbers from 1 to N
 n=int(input("enter a number: "))
 if n>0:
