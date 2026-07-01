@@ -12,9 +12,27 @@
 #      print("it is special character")
 
 
+<<<<<<< HEAD
 # s=input("enter a character")
 # if '0'<=s<='9':
 #      print(ord(s),s)
+=======
+s=input("enter a character")
+if '0'<=s<='9':
+     print(ord(s),s)
+    
+### leetcode236:##
+
+class Solution:
+    def isPowerOfThree(self, n: int) -> bool:
+        if n <= 0:
+            return False
+        while n%3==0:
+            n//=3
+        return n==1
+
+        
+>>>>>>> 34a3ee03fee47b350207f0fc0a71d65f143705d3
 
 
 
